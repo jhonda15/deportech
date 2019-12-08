@@ -1,0 +1,11 @@
+#No permite ver los archivos de las carpetas
+#Options All -Indexes
+
+ErrorDocument 404 /vista/404.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteRule ^(.*)$ $1.php
+</IfModule>

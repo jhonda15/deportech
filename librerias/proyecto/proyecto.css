@@ -1,0 +1,135 @@
+@media (min-width: 576px) {
+  .w-sm-25 {
+    width: 25% !important;
+  }
+
+  .w-sm-50 {
+    width: 50% !important;
+  }
+
+  .w-sm-75 {
+    width: 75% !important;
+  }
+
+  .w-sm-100 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-md-25 {
+    width: 25% !important;
+  }
+
+  .w-md-50 {
+    width: 50% !important;
+  }
+
+  .w-md-75 {
+    width: 75% !important;
+  }
+
+  .w-md-100 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-25 {
+    width: 25% !important;
+  }
+
+  .w-lg-50 {
+    width: 50% !important;
+  }
+
+  .w-lg-75 {
+    width: 75% !important;
+  }
+
+  .w-lg-100 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-xl-25 {
+    width: 25% !important;
+  }
+
+  .w-xl-50 {
+    width: 50% !important;
+  }
+
+  .w-xl-75 {
+    width: 75% !important;
+  }
+
+  .w-xl-100 {
+    width: 100% !important;
+  }
+}
+
+
+/* ============ Efecto de cargando ===================== */
+
+.modal-cargando{
+  z-index: 7000 !important; 
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 150px;
+  height: 150px;
+  opacity: 1.5 !important;
+}
+
+.box-loading > div {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.box-loading img{
+  margin-top: 35px;
+}
+
+.loader {
+  width: calc(100% - 0px);
+  height: calc(100% - 0px);
+  border: 8px solid transparent;
+  border-top: 8px solid #0033a0;
+  border-bottom: 8px solid #0033a0;
+  border-radius: 100%;
+  animation: rotate 5s linear infinite;
+}
+
+.loader-1 {
+  width: calc(100% - 0px);
+  height: calc(100% - 0px);
+  border: 8px solid #aca9aa;
+  border-radius: 100%;
+  animation: rotate 5s linear infinite;
+}
+
+.loader-2 {
+  width: calc(100% - 0px);
+  height: calc(100% - 0px);
+  border: 8px solid transparent;
+  border-top: 8px solid #0033a0;
+  border-bottom: 8px solid #0033a0;
+  border-radius: 100%;
+  animation: rotate 1s linear infinite reverse;
+}
+
+@keyframes rotate {
+  0%{transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+/* ================= Fin efecto cargando =========================== */

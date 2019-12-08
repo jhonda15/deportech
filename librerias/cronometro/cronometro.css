@@ -1,0 +1,42 @@
+
+
+#vista {
+	font-family: Calibri,Arial;
+	font-weight: 300;
+	font-size: 45px;
+	width: 330px;
+	height: 50px;
+	color: gray;
+	letter-spacing: 3px;
+}
+.reloj {
+    width: 330px;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.emerald {
+	border-radius: 5px;
+	width: 80px;
+
+	height: 30px;
+	margin: 5px;
+	border: 1px solid #384049;
+    color: white;
+    cursor: pointer;
+    font-family: Calibri,Arial;
+    font-weight: 300;
+    outline: none;
+    text-shadow: 0px -1px 1px black;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.emerald{
+   background-image: linear-gradient(#3aad02,#2c6f05);
+}
+.emerald:active{
+   background-image: linear-gradient(#2c6f05,#3aad02);
+   text-shadow:      0px 1px 1px black;
+}
